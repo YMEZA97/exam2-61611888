@@ -22,21 +22,21 @@ final GoRouter router = GoRouter(
             },
           ),
           GoRoute(
-            name: "editatvuelos",
+            name: "Editatvuelos",
             path: 'editatvuelos',
             builder: (BuildContext context, GoRouterState state) {
               return const editarVuelosUi();
             },
           ),
           GoRoute(
-            name: "agregarvuelos",
+            name: "Agregarvuelos",
             path: 'agregarvuelos',
             builder: (BuildContext context, GoRouterState state) {
               return const agregarVuelosUi();
             },
           ),
           GoRoute(
-            name: "eliminarvuelos",
+            name: "Eliminarvuelos",
             path: 'eliminarvuelos',
             builder: (BuildContext context, GoRouterState state) {
               return const eliminarVuelosUi();
