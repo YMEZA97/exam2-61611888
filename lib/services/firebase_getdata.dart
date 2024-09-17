@@ -9,11 +9,11 @@ Future<List> getTicketAvion() async {
 
   QuerySnapshot queryticket = await collectionReferenceTicket.get();
 
-queryticket.docs.forEach((vuelos){
+  queryticket.docs.forEach((vuelos) {
+    ticket.add(vuelos.data());
+  });
 
-ticket.add(vuelos.data());
+await Future.delayed(const Duration(seconds: 5));
 
-});
-
-return ticket;
+  return ticket;
 }
