@@ -15,7 +15,7 @@ final GoRouter router = GoRouter(
         },
         routes: [
           GoRoute(
-            name: "vervuelos",
+            name: "Vervuelos",
             path: "vervuelos",
             builder: (BuildContext context, GoRouterState state) {
               return const verVuelosUi();
