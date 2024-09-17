@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class agregarVuelos extends StatefulWidget {
-  const agregarVuelos({super.key});
+class agregarVuelosUi extends StatefulWidget {
+  const agregarVuelosUi({super.key});
 
   @override
-  State<agregarVuelos> createState() => _agregarVuelos();
+  State<agregarVuelosUi> createState() => _agregarVuelosUi();
 }
 
-class _agregarVuelos extends State<agregarVuelos> {}
+class _agregarVuelosUi extends State<agregarVuelosUi> {}
