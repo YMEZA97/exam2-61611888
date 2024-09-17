@@ -10,6 +10,10 @@ class verVuelosUi extends StatefulWidget {
 class _verVuelosUiState extends State<verVuelosUi> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Lista de Vuelos'),
+      ),
+    );
   }
 }

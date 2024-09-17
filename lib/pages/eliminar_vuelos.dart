@@ -10,8 +10,10 @@ class eliminarVuelosUi extends StatefulWidget {
 class _eliminarVuelosUi extends State<eliminarVuelosUi> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+   return Scaffold(
+      appBar: AppBar(
+        title: const Text('Eliminar Vuelos'),
+      ),
     );
   }
 }

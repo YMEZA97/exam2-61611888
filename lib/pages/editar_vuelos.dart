@@ -11,6 +11,10 @@ class editarVuelosUi extends StatefulWidget {
 class _editarVuelosUiState extends State<editarVuelosUi> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+   return Scaffold(
+      appBar: AppBar(
+        title: const Text('Editar Vuelos'),
+      ),
+    );
   }
 }

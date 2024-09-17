@@ -12,6 +12,10 @@ class agregarVuelosUi extends StatefulWidget {
 class _agregarVuelosUiState extends State<agregarVuelosUi> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+   return Scaffold(
+      appBar: AppBar(
+        title: const Text('Agregar Vuelos'),
+      ),
+    );
   }
 }
