@@ -54,7 +54,7 @@ class homepage extends StatelessWidget {
                     size: 80,
                   ),
                   onPressed: () {
-                    context.goNamed("Agregarvuelo");
+                    context.goNamed("Agregarvuelos");
                   },
                   label: const Text(
                     'Agregar Vuelos',
@@ -70,7 +70,7 @@ class homepage extends StatelessWidget {
                 TextButton.icon(
                   icon: const Icon(Icons.delete, size: 80),
                   onPressed: () {
-                    context.goNamed("Eliminarvuelo");
+                    context.goNamed("Eliminarvuelos");
                   },
                   label: const Text(
                     'Eliminar Vuelos',
