@@ -4,9 +4,12 @@ class verVuelosUi extends StatefulWidget {
   const verVuelosUi({super.key});
 
   @override
-  State<verVuelosUi> createState() => _verVuelosUi();
+  State<verVuelosUi> createState() => _verVuelosUiState();
 }
 
-class _verVuelosUi extends State<verVuelosUi> {}
-
-
+class _verVuelosUiState extends State<verVuelosUi> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
